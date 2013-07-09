@@ -1,0 +1,17 @@
+LoadOptions_SearchPaths: "C:\\Users\\Cesar\\Documents\\My Dropbox\\Eindwerk Probo\\Skelet\\Skelet v2\\" "C:\\Users\\Cesar\\Documents\\My Dropbox\\Eindwerk Probo\\Electronica mount\\Electronica mount v1\\" "C:\\Users\\Cesar\\Documents\\My Dropbox\\Eindwerk Probo\\ONO Assembly..." 
+LoadOptions_LoadComponents: load_all_components
+LoadOptions_LoadFully: NO
+LoadOptions_UseLightweightRepresentations: NO
+LoadOptions_LoadWAVE: NO
+LoadOptions_LoadWAVEParents: NONE
+LoadOptions_LoadSubstitution: dont_allow_substitution
+LoadOptions_LoadLatest: NO
+LoadOptions_LoadOption: load_from_search_dirs
+LoadOptions_LoadFilters: load_no_components
+LoadOptions_LoadFailOption: dont_abort
+LoadOptions_ReferenceSets: "As Saved" "Entire Part" "Empty" "Use Model" 
+LoadOptions_ApplyAllLevels: NO
+LoadOptions_GenerateMissingPFM: YES
+LoadOptions_BookmarkRefSets: Import
+LoadOptions_BookmarkPartsLoad: Load_Visible
+LoadOptions_BookmarkRestoreFullyLoadedState: no

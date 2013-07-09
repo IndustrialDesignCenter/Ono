@@ -1,0 +1,588 @@
+STEP to UG
+! INFO-     NX STEP AP203 - V7.5
+! INFO-      
+! INFO-     Start of Translation: 12-MAY-2012  5:40:50 PM
+! INFO-      
+! STATUS-   Converting Part: C:\Users\Cesar\Documents\My Dropbox\Eindwerk Probo\Behuizing\Arduino UNO.STEP
+! SUMMARY-   
+! SUMMARY-    STEP Header Information
+! SUMMARY-   
+! SUMMARY-  Description      Unknown
+! SUMMARY-  Imp_Level        2;1
+! SUMMARY-  File_Name        Arduino UNO
+! SUMMARY-  Date             2012-05-12T17:39:09+02:00
+! SUMMARY-  Author           Unknown
+! SUMMARY-  Organization     Unknown
+! SUMMARY-  Pre_Version      ST-DEVELOPER v10
+! SUMMARY-  Orig_System      Unknown
+! SUMMARY-  Authorization    Unknown
+! SUMMARY-  Schema_ID        automotive_design
+! SUMMARY-   
+! SUMMARY-    Summary of STEP Entities
+! SUMMARY-   
+! SUMMARY-  Entity Type                                                   Count
+! SUMMARY-  -----------                                                   ------
+! SUMMARY-  advanced_brep_shape_representation .........................:     18
+! SUMMARY-  advanced_face ..............................................:   2620
+! SUMMARY-  application_context ........................................:     24
+! SUMMARY-  application_protocol_definition ............................:     24
+! SUMMARY-  axis2_placement_3d .........................................:   2175
+! SUMMARY-  b_spline_curve_with_knots ..................................:   6437
+! SUMMARY-  b_spline_curve_with_knots_and_rational_b_spline_curve ......:    752
+! SUMMARY-  b_spline_surface_with_knots ................................:    130
+! SUMMARY-  b_spline_surface_with_knots_and_rational_b_spline_surface ..:    387
+! SUMMARY-  cartesian_point ............................................:  28063
+! SUMMARY-  closed_shell ...............................................:     25
+! SUMMARY-  context_dependent_shape_representation .....................:     29
+! SUMMARY-  conversion_based_unit_and_plane_angle_unit .................:     24
+! SUMMARY-  dimensional_exponents ......................................:     24
+! SUMMARY-  direction ..................................................:   2247
+! SUMMARY-  edge_curve .................................................:   7189
+! SUMMARY-  edge_loop ..................................................:   3032
+! SUMMARY-  face_bound .................................................:    412
+! SUMMARY-  face_outer_bound ...........................................:   2620
+! SUMMARY-  geometric_representation_context_and_global_uncertainty_a ..:     24
+! SUMMARY-  item_defined_transformation ................................:     29
+! SUMMARY-  length_unit_and_si_unit ....................................:     24
+! SUMMARY-  manifold_solid_brep ........................................:     25
+! SUMMARY-  manifold_surface_shape_representation ......................:      1
+! SUMMARY-  next_assembly_usage_occurrence .............................:     29
+! SUMMARY-  open_shell .................................................:      1
+! SUMMARY-  oriented_edge ..............................................:  14364
+! SUMMARY-  plane ......................................................:   2103
+! SUMMARY-  plane_angle_measure_with_unit ..............................:     24
+! SUMMARY-  plane_angle_unit_and_si_unit ...............................:     24
+! SUMMARY-  product ....................................................:     24
+! SUMMARY-  product_context ............................................:     24
+! SUMMARY-  product_definition .........................................:     24
+! SUMMARY-  product_definition_context .................................:     24
+! SUMMARY-  product_definition_formation_with_specified_source .........:     24
+! SUMMARY-  product_definition_shape ...................................:     53
+! SUMMARY-  product_related_product_category ...........................:     24
+! SUMMARY-  representation_relationship_with_transformation_and_shape ..:     29
+! SUMMARY-  shape_definition_representation ............................:     24
+! SUMMARY-  shape_representation .......................................:     24
+! SUMMARY-  shape_representation_relationship ..........................:     19
+! SUMMARY-  shell_based_surface_model ..................................:      1
+! SUMMARY-  si_unit_and_solid_angle_unit ...............................:     24
+! SUMMARY-  uncertainty_measure_with_unit ..............................:     24
+! SUMMARY-  vertex_point ...............................................:   4724
+! SUMMARY-                                                               -------
+! SUMMARY-  Total                                                          77946
+! STATUS-    
+! STATUS-   Converting to Output Form (Phase 2 of 3): 12-MAY-2012 5:40:51 PM
+! STATUS-    
+! INFO-     CV : STEP Ent Id       4376 violates STEP standard
+! INFO-     At least one entity in this STEP file has an invalid name attribute. 
+! INFO-      
+! STATUS-    
+! STATUS-   Generating UG geometry and placing them in parts
+! STATUS-    
+! STATUS-   Creating the UG part (Phase 3 of 3): 12-MAY-2012  5:40:51 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 1651
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Cesar\Documents\My Dropbox\Eindwerk Probo\Behuizing\24
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Reference Set ...............:     1
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 12-MAY-2012  5:40:54 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 1650
+! STATUS-    
+! INFO-     Degeneracy in b-spline entity 44091 was corrected at or around these
+! INFO-     locations.  A shape change has resulted:
+! INFO-         -7.387429 -2.147520 -9.591425
+! INFO-     Degeneracy in b-spline entity 44093 was corrected at or around these
+! INFO-     locations.  A shape change has resulted:
+! INFO-         -7.362265 -2.922593 -9.663563
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Cesar\Documents\My Dropbox\Eindwerk Probo\Behuizing\23
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Reference Set ...............:     1
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 12-MAY-2012  5:40:56 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 1649
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Cesar\Documents\My Dropbox\Eindwerk Probo\Behuizing\22
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Reference Set ...............:     1
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 12-MAY-2012  5:41:00 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 1647
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 1648
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Cesar\Documents\My Dropbox\Eindwerk Probo\Behuizing\21
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Reference Set ...............:     1
+! SUMMARY-  Solid .......................:     2
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              3
+! STATUS-   Creating the UG part (Phase 3 of 3): 12-MAY-2012  5:41:02 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 1646
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Cesar\Documents\My Dropbox\Eindwerk Probo\Behuizing\20
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Reference Set ...............:     1
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 12-MAY-2012  5:41:04 PM
+! INFO-     Filing Part ..: C:\Users\Cesar\Documents\My Dropbox\Eindwerk Probo\Behuizing\19
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              0
+! STATUS-   Creating the UG part (Phase 3 of 3): 12-MAY-2012  5:41:05 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 1645
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Cesar\Documents\My Dropbox\Eindwerk Probo\Behuizing\18
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Reference Set ...............:     1
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 12-MAY-2012  5:41:06 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 1644
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Cesar\Documents\My Dropbox\Eindwerk Probo\Behuizing\16
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Reference Set ...............:     1
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 12-MAY-2012  5:41:08 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 1643
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Cesar\Documents\My Dropbox\Eindwerk Probo\Behuizing\15
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Reference Set ...............:     1
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 12-MAY-2012  5:41:09 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 1637
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 1638
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 1639
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 1640
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 1641
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 1642
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Cesar\Documents\My Dropbox\Eindwerk Probo\Behuizing\14
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Reference Set ...............:     1
+! SUMMARY-  Solid .......................:     6
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              7
+! STATUS-   Creating the UG part (Phase 3 of 3): 12-MAY-2012  5:41:11 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 1635
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 1636
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Cesar\Documents\My Dropbox\Eindwerk Probo\Behuizing\13
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Reference Set ...............:     1
+! SUMMARY-  Solid .......................:     2
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              3
+! STATUS-   Creating the UG part (Phase 3 of 3): 12-MAY-2012  5:41:12 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 1634
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Cesar\Documents\My Dropbox\Eindwerk Probo\Behuizing\12
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Reference Set ...............:     1
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 12-MAY-2012  5:41:13 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 1633
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Cesar\Documents\My Dropbox\Eindwerk Probo\Behuizing\11
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Reference Set ...............:     1
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 12-MAY-2012  5:41:15 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 1632
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Cesar\Documents\My Dropbox\Eindwerk Probo\Behuizing\10
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Reference Set ...............:     1
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 12-MAY-2012  5:41:17 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 1631
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Cesar\Documents\My Dropbox\Eindwerk Probo\Behuizing\9
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Reference Set ...............:     1
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 12-MAY-2012  5:41:18 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 1630
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Cesar\Documents\My Dropbox\Eindwerk Probo\Behuizing\7
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Reference Set ...............:     1
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 12-MAY-2012  5:41:20 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 1629
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Cesar\Documents\My Dropbox\Eindwerk Probo\Behuizing\6
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Reference Set ...............:     1
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 12-MAY-2012  5:41:21 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 1628
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Cesar\Documents\My Dropbox\Eindwerk Probo\Behuizing\4
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Reference Set ...............:     1
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 12-MAY-2012  5:41:22 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 1627
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Cesar\Documents\My Dropbox\Eindwerk Probo\Behuizing\3
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Reference Set ...............:     1
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 12-MAY-2012  5:41:24 PM
+! INFO-     Filing Part ..: C:\Users\Cesar\Documents\My Dropbox\Eindwerk Probo\Behuizing\5
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     2
+! SUMMARY-  Reference Set ...............:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              3
+! STATUS-   Creating the UG part (Phase 3 of 3): 12-MAY-2012  5:41:26 PM
+! INFO-     Filing Part ..: C:\Users\Cesar\Documents\My Dropbox\Eindwerk Probo\Behuizing\8
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     4
+! SUMMARY-  Reference Set ...............:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              5
+! STATUS-   Creating the UG part (Phase 3 of 3): 12-MAY-2012  5:41:27 PM
+! INFO-     Filing Part ..: C:\Users\Cesar\Documents\My Dropbox\Eindwerk Probo\Behuizing\17
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     3
+! SUMMARY-  Reference Set ...............:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              4
+! STATUS-   Creating the UG part (Phase 3 of 3): 12-MAY-2012  5:41:29 PM
+! INFO-     Filing Part ..: C:\Users\Cesar\Documents\My Dropbox\Eindwerk Probo\Behuizing\2
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:    19
+! SUMMARY-  Reference Set ...............:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             20
+! STATUS-   Creating the UG part (Phase 3 of 3): 12-MAY-2012  5:41:30 PM
+! INFO-     Filing Part ..: C:\Users\Cesar\Documents\My Dropbox\Eindwerk Probo\Behuizing\Arduino UNO_step.prt
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-  Reference Set ...............:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! INFO-      
+! INFO-     Total number of solids input for this translation       :        25
+! INFO-      
+! INFO-     Number of solids created without body validation faults :        25
+! INFO-      
+! INFO-     Number of solids created with body validation fault(s)  :         0
+! INFO-      
+! INFO-     Number of solids ending up as sheet bodies              :         0
+! INFO-      
+! INFO-     End of Translation: 12-MAY-2012  5:41:33 PM
+! INFO-      
